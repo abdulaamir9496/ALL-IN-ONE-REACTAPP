@@ -1,0 +1,155 @@
+
+
+
+/* In every code it is necessary to write this above CSS */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+} */
+
+/* Using 'class' and 'id' in CSS styling */
+
+/* #main {
+    height: 40%;
+    width: 15%;
+    background-color: rgb(31, 190, 143);
+    text-align: center;
+}
+
+.details {
+    height: 40%;
+    width: 15%;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+} */
+
+/*  Will learn when to use pixels and when to use % 
+    It will be working as clock wise
+    margin: 50px for all four sides margin
+    margin: 20px 20px; for top-bottom and right-left sides margin
+    margin: 20px 20px 15px 10px; It works as clock wise top, right, bottom and left sides margin
+*/
+
+/* #pixels {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(114, 51, 172);
+    text-align: justify;
+    color: aquamarine;
+    margin: 50px;  
+    margin: 20px 20px;  
+    margin: 20px 20px 15px 10px; 
+}
+
+#percent {
+    height: 40%;
+    width: 20%;
+    background-color: rgb(130, 57, 4);
+    text-align: center;
+    color:chartreuse;
+    margin: 50%;  
+    margin: 20% 20%;  
+    margin: 20% 20% 15% 10%; 
+} */
+
+/*padding is imaginary border space inside element 
+margin is imaginary border space outside element
+*/
+
+/* #main {
+    width: 20%;
+    height: 40%;
+    background-color: rgb(191, 238, 20);
+    text-align: justify;
+    color: aliceblue;
+    padding: 50px;
+    margin: 30px;
+} */
+
+/*background image URl */
+
+/* #sketching {
+    width: 100%;
+    height: 100%;
+    background-image: url('../public/images/diveInOcean_unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+} */
+
+/*absolute position, for which ever we use it will be on the top of other 'id' and can go outside of the box as well*/
+/* #car1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#car2 {
+    position: absolute;
+    width: 110px;
+    height: 90px;
+    background-color: blueviolet;
+}
+
+#car3 {
+    position: absolute;
+    width: 130px;
+    height: 110px;
+    background-color: rgb(21, 189, 18);
+} */
+
+/*relative position, we can make it move within the box with relative position*/
+
+/* #box {
+    width: 300px;
+    height: 300px;
+    background-color: mediumseagreen;
+}
+
+#chotaBox {
+    position: relative;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+} */
+
+/*flexbox: it has two axis one is horizontal |  
+and another is vertical __, 
+for horizontal from top to bottom (|) also known as height, we use align-items
+for vertical from left to right(--) also known as width, we use justify-content*/
+
+/* #box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(38, 204, 230);
+}
+
+#box2 {
+    width: 110px;
+    height: 130px;
+    background-color: rgb(225, 239, 29);
+}
+
+#box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 235, 159);
+} */

@@ -1,0 +1,15 @@
+table{
+    width: 400px;
+    height: 100px;
+    border: 10px solid rgba(238, 135, 152, 0.956) transparent;
+    margin: 2px auto;
+    text-align: center;
+}
+
+th{
+    border: 1px solid rgba(145, 237, 105, 0.956) transparent;
+}
+
+td{
+    border: 1px solid rgba(135, 227, 243, 0.884) transparent;
+}
