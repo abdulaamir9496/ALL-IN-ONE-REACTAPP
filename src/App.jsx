@@ -60,7 +60,10 @@
 // import Images from './Images'
 // import Netflix from "./Netflix";
 // import AmazonPrime from "./AmazonPrime";
-import SlotMachine from "./MiniProject/SlotMachine";
+// import SlotMachine from "./MiniProject/SlotMachine";
+
+import Main from "./MiniProject/ReactCard/Main";
+import Navbar from "./MiniProject/ReactCard/Navbar";
 
 
 //useNavigation Hook (we use this hook to navigate from one page to another using Hook)
@@ -92,7 +95,7 @@ function App() {
 
   return (
     <>
-      <div>
+      {/* <div> */}
         {/* <h1>App Component</h1> */}
       {/* <div> */}
         {/* {isLoading && <Spinner />} */}
@@ -284,11 +287,14 @@ function App() {
       {/* <FavS /> */}
       {/* { favSeries === "Netflix" ? <Netflix /> : <AmazonPrime /> } */}
 
-      <h1 className="heading_style"> 
+      {/* <h1 className="heading_style"> 
         🎰 Welcome to {" "}
         <span style={{fontWeight : "bold"}}>Slot Machine Game</span> 🎰 </h1>
-      <SlotMachine />
-      </div>
+      <SlotMachine /> */}
+      {/* </div> */}
+      
+      <Navbar />
+      <Main />
     </>
   )
 }
