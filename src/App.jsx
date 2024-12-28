@@ -62,8 +62,15 @@
 // import AmazonPrime from "./AmazonPrime";
 // import SlotMachine from "./MiniProject/SlotMachine";
 
-import Main from "./MiniProject/ReactCard/Main";
-import Navbar from "./MiniProject/ReactCard/Navbar";
+import { useContext } from "react";
+import Footer from "./Pages/Footer";
+import Header from "./Pages/Header";
+import Section from "./Pages/Section";
+import { DataContext } from "./context/UserContext";
+
+// import Joke from "./components/Props(Properties)/Joke";
+// import Main from "./MiniProject/ReactCard/Main";
+// import Navbar from "./MiniProject/ReactCard/Navbar";
 
 
 //useNavigation Hook (we use this hook to navigate from one page to another using Hook)
@@ -93,8 +100,17 @@ import Navbar from "./MiniProject/ReactCard/Navbar";
 
 function App() {  
 
+  const data = useContext(DataContext)
+// console.log(data)
+
   return (
     <>
+      <div>
+        <h1>This is APP {data.name}</h1>
+        <Header />
+        <Section />
+        <Footer />
+      </div>
       {/* <div> */}
         {/* <h1>App Component</h1> */}
       {/* <div> */}
@@ -293,8 +309,32 @@ function App() {
       <SlotMachine /> */}
       {/* </div> */}
       
-      <Navbar />
-      <Main />
+      {/* <Navbar />
+      <Main /> */}
+
+      {/* <main>
+        <Joke 
+          setup="Why don’t skeletons fight each other?"
+          punchline="They don’t have the guts."
+        />
+
+        <Joke 
+          setup="What do you call fake spaghetti?"
+          punchline="An impasta."
+        />
+        <Joke 
+          setup="Why did the scarecrow win an award?"
+          punchline="Because he was outstanding in his field."
+        />
+        <Joke 
+          setup="Why don’t eggs tell jokes?"
+          punchline="They might crack up."
+        />
+        <Joke 
+          setup="What did one wall say to the other wall?"
+          punchline="I’ll meet you at the corner."
+        />
+      </main> */}
     </>
   )
 }
